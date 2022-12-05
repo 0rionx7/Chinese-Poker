@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1670252563074,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.27ec8b7376ba5f4753f2.js",
+        "/manifest.webmanifest",
+        "/polyfills.154b89dbb1b98eb14e6d.js",
+        "/runtime.4e3ef76ecab11b2e7f82.js",
+        "/styles.53badef55ac3cdd42de7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/fland.png",
+        "/assets/images/foul.png",
+        "/assets/images/scoop.png",
+        "/assets/images/table.jpg",
+        "/assets/sounds/fantasy.mp3",
+        "/assets/sounds/plays.mp3"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/fland.png": "7cc47c74502de8ba5c6c55d0d7e9fa251e41d765",
+    "/assets/images/foul.png": "2cabcdf2a0993dff8f765c25ff7b42779c4a1765",
+    "/assets/images/scoop.png": "f9a020751ccc594ba4a208c40917056d465b2da1",
+    "/assets/images/table.jpg": "9c179c69b20fef15bfd5dcb8633458b4eef942ac",
+    "/assets/sounds/fantasy.mp3": "618dca7ec2a1db247602520482b2a04f64af45a6",
+    "/assets/sounds/plays.mp3": "d306fa54056c31719f8fea313e4f930b703f1a32",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "461265324d2092fe84dd3dcad6ddc5389bd6696d",
+    "/main.27ec8b7376ba5f4753f2.js": "5442b3360a22bd1be711d2e1d5ad24e06cd213b4",
+    "/manifest.webmanifest": "d2b32eb82e1d072ff427fefaac927151d9a01484",
+    "/polyfills.154b89dbb1b98eb14e6d.js": "d79b1380a2be996560805161359f159092cc38d8",
+    "/runtime.4e3ef76ecab11b2e7f82.js": "3e294205bf7da26b22efebca71db36a601202f92",
+    "/styles.53badef55ac3cdd42de7.css": "322fecd29d2331bf43ce04058469d3ecfce9d315"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
