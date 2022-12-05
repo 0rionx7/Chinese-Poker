@@ -7,6 +7,7 @@ function socketIo(socketIoServer) {
       socket.broadcast.emit('openedTable', name, players);
     });
     socket.on('joined', (name) => {
+       console.log('joined');
       socket.broadcast.emit('joined', name);
     });
     socket.on('playerHand', (player, hand) => {
